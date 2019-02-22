@@ -34,17 +34,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-##An Adaptive website adapts to different sizes of device screens but nothing in the layout changes/
+_An Adaptive website adapts to different sizes of device screens but nothing in the layout changes._
 
-##While a responsive website not only adapts to different screen sizes, it also changes the layout to make the website more user friendly.
+_While a responsive website not only adapts to different screen sizes, it also changes the layout to make the website more user friendly._
 
 2. Describe what it means to be mobile first vs desktop first.
 
-##To start a website mobile first means that you start creating the layout and coding based on what the website would look like on smaller screens.
+_To start a website mobile first means that you start creating the layout and coding based on what the website would look like on smaller screens._
 
-##While Desktop first focuses on coding how the website will look on larger or desktop screens. 
+_While Desktop first focuses on coding how the website will look on larger or desktop screens._
 
-##Styling mobile first means you will use min-width in media queries to help make the site responsive for when the screen becomes larger. Desktop uses max-width in media queries to help the site become responsive to smaller screens.  
+_Styling mobile first means you will use min-width in media queries to help make the site responsive for when the screen becomes larger. Desktop uses max-width in media queries to help the site become responsive to smaller screens._
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
@@ -52,13 +52,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. How would you describe preprocessing to someone new to CSS?
 
-##It lets you use Javascript like functions and variables in CSS. It makes it easier to re-use styles that you would have to write over and over in normal CSS and also makes creating hover effects for buttons or other elements much quicker. You can also use certain sections in your website on other projects using a Preprocessor 
+_It lets you use Javascript like functions and variables in CSS. It makes it easier to re-use styles that you would have to write over and over in normal CSS and also makes creating hover effects for buttons or other elements much quicker. You can also use certain sections in your website on other projects using a Preprocessor._
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-##I love the mixins, it makes things so much easier to style various elements the same way or tweak certain things about it. 
+_I love mixins, it makes things so much easier to style various elements the same way or tweak certain things about it._
 
-##Not that I hate this feature, but nesting can be dangerous. Its great to be able to group your styles, but can get confusing if you over nest or change the html order. 
+_Not that I hate this feature, but nesting can be dangerous. Its great to be able to group your styles, but can get confusing if you over nest or change the html order._
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -86,11 +86,11 @@ Follow these steps for completing your project.
 
 ### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
-* [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+* [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [X] Open your terminal and navigate to your preprocessing project by using the `cd` command
+* [X] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+* [X] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [X] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ## Minimum Viable Product
 
@@ -118,7 +118,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [X] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [X] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
 * [X] Navigation Styles: Use the `navigation.less` file for styling.
 

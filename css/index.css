@@ -179,8 +179,13 @@ nav ul {
   font-size: 2rem;
   padding-bottom: 1.5rem;
 }
+@media (max-width: 500px) {
+  nav ul {
+    font-size: 1.7rem;
+  }
+}
 nav ul li {
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 nav ul li a {
   text-decoration: none;
@@ -198,6 +203,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    width: 100%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
