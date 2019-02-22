@@ -1,1 +1,27 @@
 // Navigation code here
+
+nav {
+    background: @nav-bg;
+    border-bottom: solid 1px @nav-border;
+    
+    .logo {
+        .custom-layout(center,center);
+        font-size: @5R;
+        padding-bottom: @1R + .5;
+        padding-top: .5rem;
+    }
+    ul {
+        .custom-layout(center,center);
+        font-size: @2R;
+        padding-bottom: @1R + .5;
+
+        li {
+            padding: 0 @1R;
+
+            a {
+                .link();
+            }
+
+        }
+    }
+}
