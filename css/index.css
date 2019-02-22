@@ -262,7 +262,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk {
-    margin: 30px 0;
+    margin: 20px 0;
     flex-direction: column-reverse;
     padding: 0 15px;
   }
@@ -315,4 +315,75 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.about-us-pg header {
+  width: 100%;
+  height: 100px;
+  background-image: url('../img/about-us-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  background-position-y: 30%;
+  margin-bottom: 1rem;
+}
+.about-us-pg .about-us h3 {
+  margin: 5px 0;
+}
+.about-us-pg .about-us p {
+  padding: 5px;
+}
+.about-us-pg .team {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 4% 0;
+}
+@media (max-width: 500px) {
+  .about-us-pg .team {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+}
+.about-us-pg .team .team-container h3,
+.about-us-pg .team .team-container p {
+  text-align: center;
+}
+.about-us-pg .team .team-container img {
+  width: 60%;
+  margin: 0 20%;
+  height: 200px;
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .about-us-pg .team .team-container img {
+    width: 100%;
+    height: 300px;
+    border-radius: 20%;
+  }
+}
+.about-us-pg .more-info {
+  padding: 5rem;
+  margin: 1rem 0;
+  border-top: 1px #dee2e6 solid;
+}
+.about-us-pg .more-info h3,
+.about-us-pg .more-info p {
+  margin-bottom: 5px;
+}
+.about-us-pg .more-info button {
+  width: 100px;
+  background: #23293B;
+  color: #F6F6F6;
+  border-radius: 5px;
+  font-size: 1.9rem;
+  padding: 10px 5%;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 2px 2%;
+  width: 20%;
+}
+.about-us-pg .more-info button:hover {
+  background: #dee2e6;
+  color: #23293B;
 }
