@@ -318,7 +318,7 @@ footer {
 }
 .about-us-pg header {
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-image: url('../img/about-us-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -337,29 +337,59 @@ footer {
   justify-content: space-around;
   align-content: center;
   margin: 4% 0;
+  border-top: 1px #dee2e6 solid;
+  padding-top: 10px;
 }
 @media (max-width: 500px) {
   .about-us-pg .team {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 500px) {
+.about-us-pg .team .team-container {
+  width: 28%;
 }
-.about-us-pg .team .team-container h3,
-.about-us-pg .team .team-container p {
+@media (max-width: 500px) {
+  .about-us-pg .team .team-container {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .about-us-pg .team .team-container:first-of-type {
+    border-bottom: 1px #dee2e6 solid;
+  }
+}
+@media (max-width: 500px) {
+  .about-us-pg .team .team-container:nth-of-type(2) {
+    border-bottom: 1px #dee2e6 solid;
+  }
+}
+.about-us-pg .team .team-container h3 {
   text-align: center;
+}
+@media (max-width: 500px) {
+  .about-us-pg .team .team-container h3 {
+    margin: 0;
+    padding-top: 5%;
+    font-size: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-us-pg .team .team-container p {
+    padding: 5%;
+  }
 }
 .about-us-pg .team .team-container img {
   width: 60%;
-  margin: 0 20%;
+  margin: 10% 20%;
   height: 200px;
   border-radius: 50%;
 }
 @media (max-width: 500px) {
   .about-us-pg .team .team-container img {
-    width: 100%;
+    width: 60%;
     height: 300px;
     border-radius: 20%;
+    margin: 5% 0 5% 20%;
   }
 }
 .about-us-pg .more-info {
@@ -372,18 +402,22 @@ footer {
   margin-bottom: 5px;
 }
 .about-us-pg .more-info button {
-  width: 100px;
+  width: 20%;
   background: #23293B;
   color: #F6F6F6;
   border-radius: 5px;
   font-size: 1.9rem;
   padding: 10px 5%;
   cursor: pointer;
-  font-size: 2rem;
-  padding: 2px 2%;
-  width: 20%;
+  padding: 5px;
 }
 .about-us-pg .more-info button:hover {
   background: #dee2e6;
   color: #23293B;
+}
+@media (max-width: 500px) {
+  .about-us-pg .more-info button {
+    width: 100%;
+    margin-top: 5%;
+  }
 }

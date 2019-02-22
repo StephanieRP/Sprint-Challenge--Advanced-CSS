@@ -130,7 +130,7 @@
    
   header {
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-image: url('../img/about-us-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,31 +151,60 @@
   }
 
   .team {
-    .custom-layout(space-around,center);
+    .custom-layout(space-around, center);
     margin: 4% 0;
+    border-top: 1px @main-border-color solid;
+    padding-top: 10px;
+    // width: 100%;
     @media @phone {
       flex-wrap: wrap;
     }
 
     .team-container {
-      
+      // .custom-layout(space-around,center);
+      // flex-direction: column;
+      width: 28%;
       @media @phone {
-        // width: 100%;
+        width: 100%;
+      }
+      &:first-of-type {
+        @media @phone {
+          border-bottom: 1px @main-border-color solid;
+        }
+      }
+
+      &:nth-of-type(2) {
+        @media @phone {
+          border-bottom: 1px @main-border-color solid;
+        }
       }
       
-      h3, p {
-        text-align: center;
+      h3 {
+      text-align: center;
+      @media @phone {
+        margin: 0;
+        padding-top: 5%;
+        font-size: @2R + 2;
+      }
+      }
+
+      p {
+        @media @phone {
+          padding: 5%;
+        }
+
       }
 
       img {
         width: 60%;
-        margin: 0 20%;
+        margin: 10% 20%;
         height: 200px;
         border-radius: 50%;
         @media @phone {
-          width: 100%;
+          width: 60%;
           height: 300px;
-          border-radius: 20%
+          border-radius: 20%;
+          margin: 5% 0 5% 20%;
         }
     
       }
@@ -193,10 +222,15 @@
     }
 
     button {
-      .custom-button();
-      font-size: @2R;
-      padding: 2px 2%;
-      width: 20%
+      .custom-button(20%,@ebony-clay, @wild-sand );
+      // font-size: @2R;
+      padding: 5px;
+      // width: 20%;
+      @media @phone {
+        width: 100%;
+        margin-top: 5%;
+      }
+  
     }
   }
 }
